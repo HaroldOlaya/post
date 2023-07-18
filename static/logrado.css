@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+    background-image: url("img/todo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.h1{
+    color:green;
+    text-align:center;
+}
+.container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); ⬅️
+    width: 60px;
+    height: 60px;
+
+}
